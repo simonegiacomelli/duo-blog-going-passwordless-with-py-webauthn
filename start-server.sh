@@ -1,1 +1,1 @@
-FLASK_ENV=development FLASK_APP=src/app.py venv/bin/flask run -h localhost
+FLASK_ENV=development FLASK_APP=src/app.py conda run --no-capture-output -n duo-blog-going-passwordless-with-py-webauthn flask run -h localhost
